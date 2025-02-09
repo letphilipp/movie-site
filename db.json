@@ -25,53 +25,143 @@
 			"description": "Ein Sohn versucht, den Zusammenbruch der DDR vor seiner Mutter zu verbergen."
 		}
 	],
-	"movies": [
-		{
-			"id": 101,
-			"title": "Inception",
-			"poster": "https://example.com/posters/inception.jpg",
-			"release_year": 2010,
-			"genre": "Sci-Fi",
-			"director": "Christopher Nolan",
-			"rating": "PG-13"
-		},
-		{
-			"id": 102,
-			"title": "The Matrix",
-			"poster": "https://example.com/posters/matrix.jpg",
-			"release_year": 1999,
-			"genre": "Action",
-			"director": "The Wachowskis",
-			"rating": "R"
-		},
-		{
-			"id": 103,
-			"title": "Pulp Fiction",
-			"poster": "https://example.com/posters/pulp_fiction.jpg",
-			"release_year": 1994,
-			"genre": "Krimi",
-			"director": "Quentin Tarantino",
-			"rating": "R"
-		},
-		{
-			"id": 104,
-			"title": "Forrest Gump",
-			"poster": "https://example.com/posters/forrest_gump.jpg",
-			"release_year": 1994,
-			"genre": "Drama",
-			"director": "Robert Zemeckis",
-			"rating": "PG-13"
-		},
-		{
-			"id": 105,
-			"title": "Interstellar",
-			"poster": "https://example.com/posters/interstellar.jpg",
-			"release_year": 2014,
-			"genre": "Sci-Fi",
-			"director": "Christopher Nolan",
-			"rating": "PG-13"
-		}
-	],
+  "movies": [
+    {
+      "id": 101,
+      "title": "Inception",
+      "poster": "https://example.com/posters/inception.jpg",
+      "release_year": 2010,
+      "genre": "Sci-Fi",
+      "director": "Christopher Nolan",
+      "rating": "PG-13"
+    },
+    {
+      "id": 102,
+      "title": "The Matrix",
+      "poster": "https://example.com/posters/matrix.jpg",
+      "release_year": 1999,
+      "genre": "Action",
+      "director": "The Wachowskis",
+      "rating": "R"
+    },
+    {
+      "id": 103,
+      "title": "Pulp Fiction",
+      "poster": "https://example.com/posters/pulp_fiction.jpg",
+      "release_year": 1994,
+      "genre": "Krimi",
+      "director": "Quentin Tarantino",
+      "rating": "R"
+    },
+    {
+      "id": 104,
+      "title": "Forrest Gump",
+      "poster": "https://example.com/posters/forrest_gump.jpg",
+      "release_year": 1994,
+      "genre": "Drama",
+      "director": "Robert Zemeckis",
+      "rating": "PG-13"
+    },
+    {
+      "id": 105,
+      "title": "Interstellar",
+      "poster": "https://example.com/posters/interstellar.jpg",
+      "release_year": 2014,
+      "genre": "Sci-Fi",
+      "director": "Christopher Nolan",
+      "rating": "PG-13"
+    },
+    {
+      "id": 106,
+      "title": "The Shawshank Redemption",
+      "poster": "https://example.com/posters/shawshank.jpg",
+      "release_year": 1994,
+      "genre": "Drama",
+      "director": "Frank Darabont",
+      "rating": "R"
+    },
+    {
+      "id": 107,
+      "title": "The Godfather",
+      "poster": "https://example.com/posters/godfather.jpg",
+      "release_year": 1972,
+      "genre": "Crime",
+      "director": "Francis Ford Coppola",
+      "rating": "R"
+    },
+    {
+      "id": 108,
+      "title": "The Dark Knight",
+      "poster": "https://example.com/posters/dark_knight.jpg",
+      "release_year": 2008,
+      "genre": "Action",
+      "director": "Christopher Nolan",
+      "rating": "PG-13"
+    },
+    {
+      "id": 109,
+      "title": "Fight Club",
+      "poster": "https://example.com/posters/fight_club.jpg",
+      "release_year": 1999,
+      "genre": "Drama",
+      "director": "David Fincher",
+      "rating": "R"
+    },
+    {
+      "id": 110,
+      "title": "The Lord of the Rings: The Return of the King",
+      "poster": "https://example.com/posters/lotr_return.jpg",
+      "release_year": 2003,
+      "genre": "Fantasy",
+      "director": "Peter Jackson",
+      "rating": "PG-13"
+    },
+    {
+      "id": 111,
+      "title": "Star Wars: Episode IV - A New Hope",
+      "poster": "https://example.com/posters/star_wars.jpg",
+      "release_year": 1977,
+      "genre": "Sci-Fi",
+      "director": "George Lucas",
+      "rating": "PG"
+    },
+    {
+      "id": 112,
+      "title": "Schindler's List",
+      "poster": "https://example.com/posters/schindlers_list.jpg",
+      "release_year": 1993,
+      "genre": "Drama",
+      "director": "Steven Spielberg",
+      "rating": "R"
+    },
+    {
+      "id": 113,
+      "title": "Parasite",
+      "poster": "https://example.com/posters/parasite.jpg",
+      "release_year": 2019,
+      "genre": "Thriller",
+      "director": "Bong Joon-ho",
+      "rating": "R"
+    },
+    {
+      "id": 114,
+      "title": "Spirited Away",
+      "poster": "https://example.com/posters/spirited_away.jpg",
+      "release_year": 2001,
+      "genre": "Animation",
+      "director": "Hayao Miyazaki",
+      "rating": "PG"
+    },
+    {
+      "id": 115,
+      "title": "Gladiator",
+      "poster": "https://example.com/posters/gladiator.jpg",
+      "release_year": 2000,
+      "genre": "Action",
+      "director": "Ridley Scott",
+      "rating": "R"
+    }
+  ],
 	"cinemas": [
 		{
 			"id": 1,
