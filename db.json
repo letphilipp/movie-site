@@ -1,0 +1,154 @@
+{
+	"featured_movies": [
+		{
+			"id": 1,
+			"title": "Die unendliche Geschichte",
+			"poster": "https://example.com/posters/unendliche_geschichte.jpg",
+			"release_year": 1984,
+			"genre": "Fantasy",
+			"description": "Ein Junge entdeckt ein magisches Buch, das ihn in eine fantastische Welt entführt."
+		},
+		{
+			"id": 2,
+			"title": "Lola rennt",
+			"poster": "https://example.com/posters/lola_rennt.jpg",
+			"release_year": 1998,
+			"genre": "Thriller",
+			"description": "Eine Frau muss in kurzer Zeit einen verzweifelten Auftrag erfüllen, um das Schicksal zu wenden."
+		},
+		{
+			"id": 3,
+			"title": "Good Bye, Lenin!",
+			"poster": "https://example.com/posters/good_bye_lenin.jpg",
+			"release_year": 2003,
+			"genre": "Drama",
+			"description": "Ein Sohn versucht, den Zusammenbruch der DDR vor seiner Mutter zu verbergen."
+		}
+	],
+	"movies": [
+		{
+			"id": 101,
+			"title": "Inception",
+			"poster": "https://example.com/posters/inception.jpg",
+			"release_year": 2010,
+			"genre": "Sci-Fi",
+			"director": "Christopher Nolan",
+			"rating": "PG-13"
+		},
+		{
+			"id": 102,
+			"title": "The Matrix",
+			"poster": "https://example.com/posters/matrix.jpg",
+			"release_year": 1999,
+			"genre": "Action",
+			"director": "The Wachowskis",
+			"rating": "R"
+		},
+		{
+			"id": 103,
+			"title": "Pulp Fiction",
+			"poster": "https://example.com/posters/pulp_fiction.jpg",
+			"release_year": 1994,
+			"genre": "Krimi",
+			"director": "Quentin Tarantino",
+			"rating": "R"
+		},
+		{
+			"id": 104,
+			"title": "Forrest Gump",
+			"poster": "https://example.com/posters/forrest_gump.jpg",
+			"release_year": 1994,
+			"genre": "Drama",
+			"director": "Robert Zemeckis",
+			"rating": "PG-13"
+		},
+		{
+			"id": 105,
+			"title": "Interstellar",
+			"poster": "https://example.com/posters/interstellar.jpg",
+			"release_year": 2014,
+			"genre": "Sci-Fi",
+			"director": "Christopher Nolan",
+			"rating": "PG-13"
+		}
+	],
+	"cinemas": [
+		{
+			"id": 1,
+			"name": "Cineplex Berlin",
+			"location": "Berlin",
+			"screens": 8,
+			"facilities": ["3D", "IMAX", "Dolby Atmos"]
+		},
+		{
+			"id": 2,
+			"name": "FilmPalast München",
+			"location": "München",
+			"screens": 10,
+			"facilities": ["Standard", "VIP Lounge", "Bar"]
+		}
+	],
+	"reviews": [
+		{
+			"id": 201,
+			"movie_id": 101,
+			"author": "Filmkritiker1",
+			"content": "Ein meisterhafter Film, der zum Nachdenken anregt.",
+			"rating": 5
+		},
+		{
+			"id": 202,
+			"movie_id": 102,
+			"author": "Filmkritiker2",
+			"content": "Ein bahnbrechender Klassiker mit revolutionären Effekten.",
+			"rating": 4.5
+		},
+		{
+			"id": 203,
+			"movie_id": 104,
+			"author": "Filmkritiker3",
+			"content": "Herzergreifend und emotional, ein Muss für jeden Filmfan.",
+			"rating": 4
+		}
+	],
+	"news": [
+		{
+			"id": 301,
+			"title": "Neue Kinoeröffnung in Frankfurt",
+			"date": "2025-01-15",
+			"content": "Ein brandneues, modernes Kino mit 3D- und IMAX-Technologie eröffnet in Frankfurt."
+		},
+		{
+			"id": 302,
+			"title": "Filmfestival 2025 angekündigt",
+			"date": "2025-02-01",
+			"content": "Das jährliche Filmfestival bringt internationale Stars und aktuelle Blockbuster zusammen."
+		}
+	],
+	"config": {
+		"siteName": "KinoKultur",
+		"theme": "dark",
+		"features": ["featured_movies", "movies", "cinemas", "reviews", "news"]
+	},
+	"staff": {
+		"management": [
+			{
+				"id": 1,
+				"name": "Anna Schmidt",
+				"position": "Geschäftsführerin"
+			},
+			{
+				"id": 2,
+				"name": "Peter Müller",
+				"position": "Technischer Leiter"
+			}
+		],
+		"support": [
+			{
+				"id": 3,
+				"name": "Claudia Klein",
+				"position": "Kundendienst"
+			}
+		]
+	}
+}
